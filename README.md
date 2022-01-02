@@ -20,10 +20,4 @@ It is built using [Hugo](https://gohugo.io).
 
 # Content
 
-## Home page
-
-The home page content is primarily page of the config file `config.yaml`. See that file and you should get the idea.
-
-## Other pages
-
 Inside the `content` directory you will see a listing of markdown files. Each is mapped to a page. E.g.: `features.md` is served at `/features/` on the site domain.
