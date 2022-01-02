@@ -1,304 +1,171 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta name=generator content="Hugo 0.91.2">
-<meta property="og:title" content="Gov Flow">
-<meta property="og:description" content="An open, modular work order and workflow management system for local government and residents.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://govflow.org/">
-<meta name=description content="An open, modular work order and workflow management system for local government and residents.">
+<meta name=description content="Gov Flow is an open source, fully extensible, request management system for 311 and more.">
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <title>Gov Flow</title>
-<link rel=icon type=image/png href=/images/favicon.png>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel=stylesheet>
-<link rel=stylesheet type=text/css href=/css/style.min.973539e55bb9a3b263afa3bea3a5c42c6bc9388ce23c69a67bf0e629f1a941a0.css integrity="sha256-lzU55Vu5o7Jjr6O+o6XELGvJOIziPGmme/DmKfGpQaA=">
-<link rel=stylesheet type=text/css href=/css/icons.css>
+<link rel=stylesheet type=text/css href=/govflow.css>
+<link rel=stylesheet type=text/css href=/bootstrap.min.css>
 </head>
 <body>
-<div id=preloader>
-<div id=status></div>
-</div>
-<section class="hero is-fullheight is-default is-bold">
-<nav class="navbar is-fresh is-transparent no-shadow" role=navigation aria-label="main navigation">
 <div class=container>
-<div class=navbar-brand>
-<a class=navbar-item href=/>
-<img src=/images/logos/fresh.svg alt width=112 height=28>
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+<a href=/ class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+<span class=fs-4>Gov Flow</span>
 </a>
-<a role=button class=navbar-burger aria-label=menu aria-expanded=false data-target=navbar-menu>
-<span aria-hidden=true></span>
-<span aria-hidden=true></span>
-<span aria-hidden=true></span>
-</a>
+<ul class="nav nav-pills">
+<li class=nav-item><a href=/features/ class=nav-link>Features</a></li>
+<li class=nav-item><a href=/services/ class=nav-link>Services</a></li>
+<li class=nav-item><a href=/contact/ class="nav-link active">Contact</a></li>
+</ul>
+</header>
 </div>
-<div id=navbar-menu class="navbar-menu is-static">
-<div class=navbar-end>
-<div class="navbar-item has-dropdown is-hoverable">
-<a class=navbar-link>
-Solutions
-</a>
-<div class=navbar-dropdown>
-<a href=/open-311-software/ class=navbar-item>
-Open 311 v2 GeoReport Software
-</a>
-<a href=/service-request-management-for-cities/ class=navbar-item>
-Service Request Management for Cities
-</a>
-<a href=/saas-solution-for-311/ class=navbar-item>
-SaaS Solution for 311
-</a>
+<div class="container col-xxl-8 px-4 py-5">
+<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+<div class="col-10 col-sm-8 col-lg-6">
+<img src=2.png class="d-block mx-lg-auto img-fluid" alt="Gov Flow" width=100>
 </div>
-</div>
-<a href=/managed-services/ class="navbar-item is-secondary">
-Managed Gov Flow
+<div class=col-lg-6>
+<h1 class="display-5 fw-bold lh-1 mb-3">Smart request management for smart cities.</h1>
+<p class=lead>
+Gov Flow is an open source, fully extensible, request management system - designed from ground
+up for today's cities. Fully supporting 311 requests, help desk requests, and public question and answer
+interfaces, Gov Flow offers a single system for constituents to engage with their city, and for city
+managers to monitor and analyse request management.
+</p>
+<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+<a href=/contact/ class="btn btn-primary btn-lg px-4 me-md-2">
+Learn more
 </a>
-<a href=/contact/ class=navbar-item>
-<span class="button signup-button rounded secondary-btn raised">
-Contact
-</span>
-</a>
-</div>
-</div>
-</div>
-</nav>
-<nav id=navbar-clone class="navbar is-fresh is-transparent" role=navigation aria-label="main navigation">
-<div class=container>
-<div class=navbar-brand>
-<a class=navbar-item href=/>
-<img src=/images/logos/fresh.svg alt width=112 height=28>
-</a>
-<a role=button class=navbar-burger aria-label=menu aria-expanded=false data-target=cloned-navbar-menu>
-<span aria-hidden=true></span>
-<span aria-hidden=true></span>
-<span aria-hidden=true></span>
-</a>
-</div>
-<div id=cloned-navbar-menu class="navbar-menu is-fixed">
-<div class=navbar-end>
-<div class="navbar-item has-dropdown is-hoverable">
-<a class=navbar-link>
-Solutions
-</a>
-<div class=navbar-dropdown>
-<a href=/open-311-software/ class=navbar-item>
-Open 311 v2 GeoReport Software
-</a>
-<a href=/service-request-management-for-cities/ class=navbar-item>
-Service Request Management for Cities
-</a>
-<a href=/saas-solution-for-311/ class=navbar-item>
-SaaS Solution for 311
-</a>
-</div>
-</div>
-<a href=/managed-services/ class="navbar-item is-secondary">
-Managed Gov Flow
-</a>
-<a href=/contact/ class=navbar-item>
-<span class="button signup-button rounded secondary-btn raised">
-Contact
-</span>
-</a>
-</div>
-</div>
-</div>
-</nav>
-<div class=hero-body>
-<div class=container>
-<div class="columns is-vcentered">
-<div class="column is-5 is-offset-1 landing-caption">
-<h1 class="title is-1 is-bold is-spaced">
-311 for smart cities.
-</h1>
-<h2 class="subtitle is-5 is-muted">
-An open, modular work order and workflow management system for local government and residents.
-</h2>
-<p>
-<a class="button cta rounded primary-btn raised" href=https://github.com/govflow/govflow>
+<a href=https://github.com/govflow/govflow target=_blank class="btn btn-outline-secondary btn-lg px-4">
 Get the code
 </a>
+</div>
+</div>
+</div>
+</div>
+<div class="container px-4 py-5" id=hanging-icons>
+<h2 class="pb-2 border-bottom">Key features</h2>
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+<div class="col d-flex align-items-start">
+<div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+<img src=/1.png width=100>
+</div>
+<div>
+<h2>Multiple input channels</h2>
+<p>
+Receive service requests from wherever your constituents are, including email, web, sms, social
+media, chatbots
+and more. Easily respond via the same channels.
 </p>
-</div>
-<div class="column is-5 is-offset-1">
-<figure class="image is-4by3">
-<img src=/images/illustrations/worker.svg alt=Description>
-</figure>
+<a href=/features class="btn btn-primary">
+Read more
+</a>
 </div>
 </div>
+<div class="col d-flex align-items-start">
+<div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+<img src=/3.png width=100>
+</div>
+<div>
+<h2>Fits for your workflow</h2>
+<p>
+Gov Flow provides complete customization of the flow for handling requests. Bend Gov Flow to fit
+<i>your</i>
+business requirements, and work how your team works.
+</p>
+<a href=/features class="btn btn-primary">
+Read more
+</a>
 </div>
 </div>
-<div class="hero-foot mb-20">
+<div class="col d-flex align-items-start">
+<div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+<img src=/4.png width=100>
+</div>
+<div>
+<h2>Accessible data-driven insights</h2>
+<p>
+Gov Flow gives you a dashboard to interact with your data. Use it to get an understanding of the
+volume of your cases, identify service breakdowns by geolocation, and more.
+</p>
+<a href=/features class="btn btn-primary">
+Read more
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="px-4 py-5 my-5 text-center">
+<h1 class="display-5 fw-bold">For City CDOs and CIOs</h1>
+<div class="col-lg-6 mx-auto">
+<p class="lead mb-4">
+Gov Flow is designed from ground up for request management, rather than being another CRM with some features
+for managing 311 requests. It is open source and deployable by any GovTech service provider, and is
+customizable to your internal workflow. In addition to management of service requests, Gov Flow provides
+powerful dashboard views on your data enabling your teams to serve consistuents more effectively.
+</p>
+<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+<a href=/contact/ class="btn btn-primary btn-lg px-4 gap-3">Talk to us</a>
+</div>
+</div>
+</div>
+<div class="px-4 py-5 my-5 text-center">
+<h1 class="display-5 fw-bold">For Developers and GovTech Service Providers</h1>
+<div class="col-lg-6 mx-auto">
+<p class="lead mb-4">Gov Flow is open sourced under an MIT license, and provides compatibility with <a href=https://wiki.open311.org/GeoReport_v2/>Open 311 GeoReport v2</a>
+(currently in alpha), making it easy to adopt with existing 311 systems. The core of Gov Flow is deeply
+customizable via a plugin system, and provides a clean seperation between the API server and the web client.
+Gov Flow is written in TypeScript,
+and developed openly on <a href=https://github.com/govflow/govflow>GitHub</a>. We welcome <a href=https://github.com/govflow/govflow/issues>issues for fixes and enhancements</a>,
+<a href=https://github.com/govflow/govflow/discussions>discussions on new functionality</a>, and pull
+requests!
+</p>
+<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+<a href=https://github.com/govflow/govflow class="btn btn-primary btn-lg px-4 gap-3">Get the code</a>
+</div>
+</div>
+</div>
 <div class=container>
-<div class="tabs is-centered">
-<ul>
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+<div class=row>
+<div class="col-12 col-md">
+<strong>Gov Flow</strong>
+</div>
+<div class="col-6 col-md">
+<h5>Features</h5>
+<ul class="list-unstyled text-small">
+<li class=mb-1><a class="link-secondary text-decoration-none" href=/open-311-software/>Open 311
+Software</a></li>
+<li class=mb-1><a class="link-secondary text-decoration-none" href=/service-request-management-for-cities/>Service Request Management for Cities</a>
+</li>
+<li class=mb-1><a class="link-secondary text-decoration-none" href=/features/>Features</a></li>
 </ul>
 </div>
+<div class="col-6 col-md">
+<h5>Resources</h5>
+<ul class="list-unstyled text-small">
+<li class=mb-1><a class="link-secondary text-decoration-none" href=https://github.com/govflow/govflow>Code</a></li>
+<li class=mb-1><a class="link-secondary text-decoration-none" href=https://github.com/govflow/govflow#README>Documentation</a></li>
+<li class=mb-1><a class="link-secondary text-decoration-none" href=https://github.com/govflow/govflow/issues>Issue Tracker</a></li>
+<li class=mb-1><a class="link-secondary text-decoration-none" href=https://github.com/govflow/govflow/discussions>Discussion Forum</a></li>
+</ul>
 </div>
-</div>
-</section>
-<section class="section section-feature-grey is-medium">
-<div class=container>
-<div class="title-wrapper has-text-centered">
-<h2 class="title is-2">Dynamic, future facing cities.</h2>
-<h3 class="subtitle is-5 is-muted">A fully featured, open source, platform for 311 and service request management.</h3>
-<div class="divider is-centered"></div>
-</div>
-<div class=content-wrapper>
-<div class=columns>
-<div class="column is-one-third">
-<div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation=fadeInLeft>
-<div class=card-title>
-<h4>Improve resident service</h4>
-</div>
-<div class=card-icon>
-<img src=/images/illustrations/icons/mouse-globe.svg>
-</div>
-<div class=card-text>
-<p>See all resident requests in one place and make decisions on how to improve servicex`</p>
-</div>
-<div class=card-action>
-<a href=/contact/ class="button btn-align-md accent-btn raised">Easy to use</a>
-</div>
-</div>
-</div>
-<div class="column is-one-third">
-<div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation=fadeInLeft>
-<div class=card-title>
-<h4>Flexible</h4>
-</div>
-<div class=card-icon>
-<img src=/images/illustrations/icons/laptop-cloud.svg>
-</div>
-<div class=card-text>
-<p>Add workflows and request types without needing to code.</p>
-</div>
-<div class=card-action>
-<a href=/contact/ class="button btn-align-md accent-btn raised">Get started</a>
-</div>
-</div>
-</div>
-<div class="column is-one-third">
-<div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation=fadeInLeft>
-<div class=card-title>
-<h4>Data driven</h4>
-</div>
-<div class=card-icon>
-<img src=/images/illustrations/icons/plug-cloud.svg>
-</div>
-<div class=card-text>
-<p>Comes with an analytics layer out of the box.</p>
-</div>
-<div class=card-action>
-<a href=/contact/ class="button btn-align-md accent-btn raised">Get started</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<footer class="footer footer-dark">
-<div class=container>
-<div class=columns>
-<div class=column>
-<div class=footer-logo>
-<img src=/images/logos/fresh-white-alt.svg>
-</div>
-</div>
-<div class=column>
-<div class=footer-column>
-<div class=footer-header>
-<h3>Product</h3>
-</div>
-<ul class=link-list>
-<li>
-<a href=/features/>
-Key features
-</a>
-</li>
-<li>
-<a href=https://github.com/govflow/govflow/discussions>
-Discussion forum
-</a>
-</li>
-<li>
-<a href=https://github.com/govflow/govflow/issues>
-Issue tracker
+<div class="col-6 col-md">
+<h5>About</h5>
+<ul class="list-unstyled text-small">
+<li class=mb-1>
+<a class="link-secondary text-decoration-none" href=https://zencity.io>
+Zencity
 </a>
 </li>
 </ul>
-</div>
-</div>
-<div class=column>
-<div class=footer-column>
-<div class=footer-header>
-<h3>Docs</h3>
-</div>
-<ul class=link-list>
-<li>
-<a href=https://github.com/govflow/govflow/#README>
-Get started
-</a>
-</li>
-<li>
-<a href=https://github.com/govflow/govflow/#README>
-User guides
-</a>
-</li>
-<li>
-<a href=https://github.com/govflow/govflow/#README>
-Admin guide
-</a>
-</li>
-<li>
-<a href=https://github.com/govflow/govflow/#README>
-Developers
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class=column>
-<div class=footer-column>
-<div class=footer-header>
-<h3>Community</h3>
-</div>
-<ul class=link-list>
-<li>
-<a href=https://zencity.io>
-ZenCity
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class=column>
-<div class=footer-column>
-<div class=footer-header>
-<h3>Follow Us</h3>
-<nav class="level is-mobile">
-<div class=level-left>
-<a class=level-item href=https://github.com/govflow/govflow>
-<span class=icon><i class="fa fa-github"></i></span>
-</a>
-<a class=level-item href=https://zencity.io>
-<span class=icon><i class="fa fa-website"></i></span>
-</a>
-</div>
-</nav>
-</div>
-</div>
-</div>
 </div>
 </div>
 </footer>
-<div id=backtotop><a href=#></a></div>
-<div id=backtotop><a href=#></a></div>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js></script>
-<script src=https://unpkg.com/feather-icons></script>
-<script src=/js/fresh.js></script>
-<script src=/js/jquery.panelslider.min.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js></script>
+</div>
+<script src=/bootstrap.bundle.min.js></script>
 </body>
 </html>
