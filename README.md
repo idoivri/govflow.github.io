@@ -1,6 +1,6 @@
-# Gov Flow Website
+# GovFlow Website
 
-This is the codebase for the Gov Flow website.
+This is the codebase for the GovFlow website.
 
 It is built using [Hugo](https://gohugo.io).
 
