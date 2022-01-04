@@ -25,7 +25,7 @@ draft: false
                 <img src="/3.png" width="50" />
             </div>
             <div>
-                <h2>Fits for your workflow</h2>
+                <h2>Fits your workflow</h2>
                 <p>
                     GovFlow provides complete customization of the flow for handling requests. Bend GovFlow to fit
                     <i>your</i> business requirements, and work how your team works.
