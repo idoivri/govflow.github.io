@@ -6,7 +6,7 @@ draft: false
 
 {{< rawhtml >}}
 <div class="container px-4 py-5" id="hanging-icons">
-    <h2 class="pb-2 border-bottom">Tailored for smart cities</h2>
+    <h2 class="pb-2 border-bottom">Tailored for local governments</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="col d-flex align-items-start">
             <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
@@ -39,8 +39,8 @@ draft: false
             <div>
                 <h2>Data-driven insights</h2>
                 <p>
-                    GovFlow gives you a dashboard to interact with your data. Use it to get an understanding of the
-                    volume of your cases, identify service breakdowns by geolocation, and more.
+                    GovFlow includes a dashboard to interact with your data. Use it to get an understanding of the
+                    volume of your frequent cases, identify service breakdowns by location, and more.
                 </p>
             </div>
         </div>
@@ -59,7 +59,7 @@ draft: false
             <div>
                 <h2>Open 311 support</h2>
                 <p>
-                    GovFlow supports the Open 311 GeoReport v2 specification, enabling integration with existing 311 management systems, and data interoperability for external apps using the Open 311 specification.
+                    GovFlow supports the <a href="https://www.open311.org/">Open 311</a> GeoReport v2 specification, enabling integration with existing 311 management systems, and data interoperability for external apps using the Open 311 specification.
                 </p>
             </div>
         </div>
