@@ -16,7 +16,7 @@ GovFlow is [open source](https://github.com/govflow/govflow) and can directly be
         <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">Zencity</h1>
             <p class="lead">
-                Zencity stewards the GovFlow project, and can additionally provide managed services, such as SaaS version of GovFlow integrated with our Zencity platform, and customization services for your city.
+                <a href="https://zencity.io">Zencity</a> stewards the GovFlow project, and can additionally provide managed services, such as SaaS version of GovFlow integrated with our Zencity platform, and customization services for your city.
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                 <a href="/contact/" class="btn btn-primary btn-lg px-4 me-md-2">
